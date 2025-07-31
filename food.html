@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>foos ordering</title>
+    <style>
+        .bag{
+      
+            border: 3px rgb(16, 51, 206) solid;
+            display: flex;
+            flex-direction: column;
+            border-radius: 30px;
+            width: 300px;
+            height: 400px;
+            align-items: center;
+            background:yellowgreen;
+            transition: all 0.4s ease-in-out;
+            font-family: monospace;
+        }
+        .bag img{
+            width: 220px;
+            height: 250px;
+            border: 2.5px blue solid;
+            border-radius: 50px;
+        }
+        #car{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        #car:hover .bag{
+            transform: scale(0.8);
+        }
+        #car .bag:hover{
+            background-color: aqua;
+            transform: scale(1.0);
+
+        }
+        .said{
+            display: flex;
+            justify-content: space-evenly;
+            background-color: darkcyan;
+            
+
+        }
+        .si{
+            font-family: monospace;
+            color: aliceblue;
+        }
+        .head{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color:aliceblue ;
+        }
+    </style>
+</head>
+<body>
+    <div class="said">
+        <h1 class="head">welcome to the briyani palaiyam</h1>
+        <h2 class="si">sign in</h2>
+        <h2 class="si">home</h2>
+        <h2 class="si">card</h2>
+
+    </div>
+<br><br>
+<h2 style="font-family: sans-serif;">what's on your mind ?</h2>
+<br><br>
+   <div id="car">
+        <div class="bag">
+        <h2>salede</h2>
+        <img src="9.jpg" alt="main imag" height="280px">
+        <h2 style="color: blue;">price:$ 599</h2>
+    </div> 
+     <div class="bag">
+        <h2>salede</h2>
+        <img src="4 (1).jpg" alt="main imag" height="280px">
+        <h2 style="color: blue;">price:$ 499</h2>
+    </div>
+     <div class="bag">
+        <h2>salede</h2>
+        <img src="2.jpg" alt="main imag" height="280px">
+        <h2 style="color: blue;">price:$ 399</h2>
+    </div>
+     <div class="bag">
+        <h2>salede</h2>
+        <img src="maari.jpg" alt="main imag" height="280px">
+        <h2 style="color: blue;">price:$ 299</h2>
+    </div>
+   </div>
+   <div>
+
+   </div>
+</body>
+</html>
